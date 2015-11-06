@@ -85,3 +85,13 @@ Route::group(['middleware' => 'auth'], function() {
         'uses' => 'BitacoraController@destroy',
     ]);
 }); //middleware auth    
+
+
+Route::resource('api/aplications', 'API\AplicationAPIController');
+
+Route::resource('aplications', 'AplicationController');
+
+Route::get('aplications/{id}/delete', [
+    'as' => 'aplications.delete',
+    'uses' => 'AplicationController@destroy',
+]);
