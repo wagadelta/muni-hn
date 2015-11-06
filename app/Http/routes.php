@@ -68,3 +68,13 @@ Route::get('motivoIngresos/{id}/delete', [
     'as' => 'motivoIngresos.delete',
     'uses' => 'motivoIngresoController@destroy',
 ]);
+
+
+Route::resource('api/motivoLlamadas', 'API\motivoLlamadaAPIController');
+
+Route::resource('motivoLlamadas', 'motivoLlamadaController');
+
+Route::get('motivoLlamadas/{id}/delete', [
+    'as' => 'motivoLlamadas.delete',
+    'uses' => 'motivoLlamadaController@destroy',
+]);
