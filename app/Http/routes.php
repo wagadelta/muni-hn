@@ -58,3 +58,13 @@ Route::get('diaFestivos/{id}/delete', [
     'as' => 'diaFestivos.delete',
     'uses' => 'DiaFestivoController@destroy',
 ]);
+
+
+Route::resource('api/motivoIngresos', 'API\motivoIngresoAPIController');
+
+Route::resource('motivoIngresos', 'motivoIngresoController');
+
+Route::get('motivoIngresos/{id}/delete', [
+    'as' => 'motivoIngresos.delete',
+    'uses' => 'motivoIngresoController@destroy',
+]);
