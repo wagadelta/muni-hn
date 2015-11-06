@@ -88,3 +88,13 @@ Route::get('opcionMenus/{id}/delete', [
     'as' => 'opcionMenus.delete',
     'uses' => 'opcionMenuController@destroy',
 ]);
+
+
+Route::resource('api/usuarioRols', 'API\usuarioRolAPIController');
+
+Route::resource('usuarioRols', 'usuarioRolController');
+
+Route::get('usuarioRols/{id}/delete', [
+    'as' => 'usuarioRols.delete',
+    'uses' => 'usuarioRolController@destroy',
+]);
