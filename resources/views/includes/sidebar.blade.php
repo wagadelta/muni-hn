@@ -24,7 +24,7 @@
         <!-- /.search form -->
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
-            <li class="header"INTERCONEXIONES</li>
+            <li class="header"LARAVEL</li>
             <li>
                 <a href="/home">
                     <i class="fa fa-home"></i>
@@ -32,20 +32,49 @@
                 </a>
             </li>
             <li>
-                <a href="/users">
-                    <i class="fa fa-users"></i>
-                    <span>Admin. Usuarios</span>
+                <a href="/opcionMenus">
+                    <i class="fa fa-bars"></i><span>Admin. Menú</span>
                 </a>
             </li>
-             
+            <li>
+                <a href="/aplications">
+                    <i class="fa fa-desktop"></i><span>Aplicación</span>
+                </a>
+            </li>
+            <li>
+                <a href="/diaFestivos">
+                    <i class="fa fa-sun-o"></i><span>Día Festivo</span>
+                </a>
+            </li>
              <li class="treeview">
                 <a href="#">
-                <i class="fa fa-cogs"></i> <span>Catàlogos</span> 
-                <!--<i class="fa fa-angle-left pull-right">-->
-                </i>
+                    <i class="fa fa-cogs"></i> <span>Admin. Usuarios</span></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="/roles"><i class="fa fa-level-up"></i> Admin. Roles</a></li>
+                    <li><a href="/users"><i class="fa fa-users"></i>Usuarios</a></li>
+                </ul>
+                <ul class="treeview-menu">
+                    <li><a href="/roles"><i class="fa fa-users"></i>Roles</a></li>
+                </ul>
+               <ul class="treeview-menu">
+                    <li><a href="/usuarioRols"><i class="fa fa-users"></i> Usuario/Role</a></li>
+                </ul>
+            </li>
+             <li class="treeview">
+                <a href="#">
+                    <i class="fa fa-cogs"></i> <span>Catàlogos</span> </i>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="/tipoPersonas"><i class="fa fa-stack-overflow"></i>Tipo Persona</a></li>
+                </ul>
+                <ul class="treeview-menu">
+                    <li><a href="/tipoResolucions"><i class="fa fa-stack-overflow"></i>Tipo Resolución</a></li>
+                </ul>
+                <ul class="treeview-menu">
+                    <li><a href="/motivoLlamadas"><i class="fa fa-stack-overflow"></i><span>Motivo Llamada</span></a></li>
+                </ul>
+                <ul class="treeview-menu">
+                    <li><a href="/motivoIngresos"><i class="fa fa-stack-overflow"></i><span>Motivo Ingreso</span></a></li>
                 </ul>
             </li>   
             <li>
