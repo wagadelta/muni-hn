@@ -1,3 +1,14 @@
+------------------------------------------------
+-------------- -  WIKI - -----------------------
+------------------------------------------------
+
 * comando para crear proyecto en laravel ver 5.0 
+
 $ composer create=project laravel/laravel=5.0 project-name --prefer-dist
 
+-------------------------------------------------
+
+* comando para generar scaffold_api utilizando "mitulgolakiya/laravel-api-generator": "1.3.*",
+* desde un archivo json:
+
+$ php artisan mitul.generator:scaffold_api tipoResolucion --fieldsFile="extras/json-db/tipoResolucion.json"  
