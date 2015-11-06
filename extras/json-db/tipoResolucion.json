@@ -1,0 +1,10 @@
+[
+    {
+        "field":"nombre:string",
+        "validations": "required"
+    },
+    {
+        "field":"activo:string",
+        "validations": ""
+    }
+]
