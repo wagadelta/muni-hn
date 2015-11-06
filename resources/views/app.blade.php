@@ -59,7 +59,7 @@
                 <div class="pull-right hidden-xs">
                     <b>Version</b> 2.0
                 </div>
-                <strong>Copyright &copy; 2014-2015 <a href="#">CrediChapin.</a>.</strong> All rights reserved.
+                <strong>Copyright &copy; 2014-2015 <a href="#">construído con Laravel.</a>.</strong> All rights reserved.
             </footer>
         </div><!-- ./wrapper -->
  
