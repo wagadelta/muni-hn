@@ -1,0 +1,18 @@
+[
+    {
+        "field":"usuario_ingresa:string",
+        "validations": "required"
+    },
+    {
+        "field":"fecha_ingresa:datetime",
+        "validations": "required"
+    },
+    {
+        "field":"descripcion:text",
+        "validations": "required"
+    },
+    {
+        "field":"activo:string",
+        "validations": "required"
+    }
+]
