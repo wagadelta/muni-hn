@@ -78,3 +78,13 @@ Route::get('motivoLlamadas/{id}/delete', [
     'as' => 'motivoLlamadas.delete',
     'uses' => 'motivoLlamadaController@destroy',
 ]);
+
+
+Route::resource('api/opcionMenus', 'API\opcionMenuAPIController');
+
+Route::resource('opcionMenus', 'opcionMenuController');
+
+Route::get('opcionMenus/{id}/delete', [
+    'as' => 'opcionMenus.delete',
+    'uses' => 'opcionMenuController@destroy',
+]);

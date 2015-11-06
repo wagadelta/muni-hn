@@ -1,0 +1,38 @@
+[
+    {
+        "field":"id_aplicacion:integer",
+        "validations": "required"
+    },
+    {
+        "field":"id_aplicacion_padre:integer",
+        "validations": "required"
+    },
+    {
+        "field":"id_opcion_menu:integer",
+        "validations": "required"
+    },    
+    {
+        "field":"id_opcion_menu_padre:integer",
+        "validations": "required"
+    },
+    {
+        "field":"nombre:string",
+        "validations": "required"
+    },
+    {
+        "field":"direccion:string",
+        "validations": "required"
+    },
+    {
+        "field":"orden:integer",
+        "validations": ""
+    },
+    {
+        "field":"imagen:string",
+        "validations": ""
+    },
+    {
+        "field":"activo:string",
+        "validations": ""
+    }
+]
