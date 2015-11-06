@@ -98,3 +98,13 @@ Route::get('usuarioRols/{id}/delete', [
     'as' => 'usuarioRols.delete',
     'uses' => 'usuarioRolController@destroy',
 ]);
+
+
+Route::resource('api/tipoPersonas', 'API\tipoPersonaAPIController');
+
+Route::resource('tipoPersonas', 'tipoPersonaController');
+
+Route::get('tipoPersonas/{id}/delete', [
+    'as' => 'tipoPersonas.delete',
+    'uses' => 'tipoPersonaController@destroy',
+]);
